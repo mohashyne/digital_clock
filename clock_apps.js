@@ -8,9 +8,17 @@ const tick = () => {
     const m = now.getMinutes();
     const s = now.getSeconds();
 
-    clock.innerHTML = `${h}:${m}:${s}`
+
+  
+const html = `
+<span>${h}</span> :
+<span>${m}</span> :
+<span>${s}</span>
+`
+
+clock.innerHTML = html;
 }
 
 
 
-setInterval(tick, 1000);
+setInterval(tick, 1000);``

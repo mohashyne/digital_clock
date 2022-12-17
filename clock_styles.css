@@ -1,8 +1,21 @@
 body {
-    background: burlywood;
+    background: #ebc034;
 }
 
 
 h1{
     text-align: center;
+}
+
+.clock{
+    font-size: 4rem;
+    text-align: center;
+    margin: 20px auto;
+    margin-top: 40px;
+    font-family: arial;
+}
+
+.clock span{
+    padding: 20px;
+    background: #cfb563;
 }
